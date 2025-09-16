@@ -1,0 +1,27 @@
+Các bước tính toán
+Bước 1: Quy đổi 1 ảnh (2 MB) sang Byte
+Đầu tiên đổi MB → KB:2MB=2×1024KB=2048KB
+
+Sau đó đổi KB → Byte:2048KB=2048×1024B
+
+Tính toán thủ công:2048×1024=(2000+48)×1024=2000×1024+48×1024=2,048,000+49,152=2,097,152
+
+Vậy:2MB=2,097,152B
+
+Bước 2: Quy đổi 5 ảnh sang KB, MB, GB
+Dung lượng 5 ảnh:5×2MB=10MB
+a) Đổi sang KB:10MB=10×1024KB=10,240KB
+b) Giữ ở MB=10MB
+c) Đổi sang GB:
+Theo quy ước IEC:
+1GB=1024MB
+Vậy:10MB=1024/10GB
+
+Tính toán:10/1024≈0.00977GB
+
+Kết quả cuối cùng (theo quy ước IEC)
+1 ảnh 2 MB = 2,097,152 Byte
+5 ảnh:
+10,240 KB
+10 MB
+≈ 0.00977 GB
